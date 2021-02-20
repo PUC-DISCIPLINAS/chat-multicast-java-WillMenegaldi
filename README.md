@@ -19,6 +19,7 @@ Os comandos são:
 - enter_room
 - list_members
 - leave_room
+- <i> leave_chat </i>
 
 A especificação dos comandos é a seguinte:
 
@@ -51,8 +52,8 @@ leave_room
   - Exemplo de execução: <b> leave_room <nome_da_sala> </b>
   - Sua função é remover o usuário da lista de usuários daquela sala
   
-Além disso, enquanto o usuário está no fluxo do chat multicast, para sair da conversa, o comando a ser executado para sair é "leave_chat"
-Para isso, basta enviar como mensagem: leave_chat
+<i> Além disso, enquanto o usuário está no fluxo do chat multicast, para sair da conversa, o comando a ser executado para sair é <b> "leave_chat" </b>
+Para isso, basta enviar como mensagem: leave_chat </i>
 
 - Quem envia a mensagem não a recebe de volta, há uma verificação para isso;
 - Há validação de comandos inválidos;
