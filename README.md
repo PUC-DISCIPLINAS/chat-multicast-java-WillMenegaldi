@@ -7,7 +7,8 @@ Para executar o projeto, deve-se:
 
 - Rodar a classe Server (a porta está configurada na classe Server). Porta: 1234
 - Rodar a classe Client para cada usuário dentro do chat.
-  Para iniciar, não é preciso enviar parametros para nenhuma das classes.
+
+Obs: Para iniciar, não é preciso enviar parametros para nenhuma das classes.
   
 Ao rodar o Server e o Client, o Client deverá enviar um comando para o servidor executar determinada ação.
 
