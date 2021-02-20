@@ -30,14 +30,14 @@ list_rooms:
 create_room:
   - Este comando necessita de 3 parâmetros;
   - Exemplo de execução: <b> create_room <nome_da_sala> <ip_multicast> <porta_multicast> </b>
-      O ip multicast deve ser válido ( 224.0.0.1 - 239.255.255.255 )
-      A porta deve ser válida ( ex: 3452 )
+      - O ip multicast deve ser válido ( 224.0.0.1 - 239.255.255.255 )
+      - A porta deve ser válida ( ex: 3452 )
   - Sua função é criar uma nova sala Multicast.
   
 enter_room
   - Este comando necessita de 2 parâmetros
   - Exemplo de execução: <b> enter_room <nome_da_sala> <seu_nome> </b>
-      Ao executar este comando, o usuário será adicionado à lista de membros daquela sala e já entrará no chat multicast, 
+      - Ao executar este comando, o usuário será adicionado à lista de membros daquela sala e já entrará no chat multicast, 
       pronto para enviar e receber mensagens referentes àquela sala.
   - Sua função é adicionar o usuário ao chat multicast
   
